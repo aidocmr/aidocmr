@@ -22,4 +22,4 @@ printf("\e[%luA\e[%luD",32/2,(64+strlen(_0))/2); puts(_0);printf(
 (_2))/2);puts(_2);printf("\e[H\e[%luC",(64-strlen(_3))/2);puts(_3
 /*z=z*z+C;z=z*z+C;z=z*z+C;z=z*z+C;z=*/);usleep(16000);}return 0;}
 ```
-Compile with `s gcc main.c -lm -o aidocmr`
+Compile with `$ gcc main.c -lm -o aidocmr`
